@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/la1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"><![CDATA[
+
+
+
+    ="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="595dp"
+        android:onClick="onclick1"
+        android:text="Set Age"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+
+
+
+
+    ]]>
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="155dp"
+        android:layout_toStartOf="@+id/b2"
+        android:ems="10"
+        android:hint="Death's Daughter"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textAllCaps="true"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="154dp"
+        android:text="CHECK"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="75dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="243dp"
+        android:layout_marginEnd="202dp"
+        android:layout_marginBottom="14dp"
+        android:text="Reset And View Data"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="328dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="195dp"
+        android:layout_marginBottom="283dp"
+        android:text="Death Finder"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="15dp"
+        android:text="Set Age"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edt2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="14dp"
+        android:layout_toStartOf="@+id/b1"
+        android:ems="10"
+        android:hint="Death Daughter"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>
